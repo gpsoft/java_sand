@@ -1,5 +1,6 @@
 package java_sand;
 
+import java_sand.sand.ListSand;
 import java_sand.sand.OptionalSand;
 import java_sand.sand.Sand;
 import java_sand.sand.StaticSand;
@@ -11,6 +12,7 @@ public class Main {
 				new OptionalSand(),
 				new UriSand(),
 				new StaticSand(),
+				new ListSand(),
 		};
 		int ix = sands.length - 1;
 		if (args.length > 0) ix = Utils.parseInt(args[0], ix);
