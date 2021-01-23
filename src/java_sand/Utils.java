@@ -29,4 +29,12 @@ public class Utils {
 		} catch (InterruptedException e) {
 		}
 	}
+
+	public static int parseInt(String intStr, int def) {
+		try {
+			return Integer.parseInt(intStr);
+		} catch (NumberFormatException ex) {
+			return def;
+		}
+	}
 }

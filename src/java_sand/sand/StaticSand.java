@@ -1,6 +1,8 @@
-package java_sand;
+package java_sand.sand;
 
 import java.time.LocalDateTime;
+
+import java_sand.Utils;
 
 public class StaticSand implements Sand {
 	@Override

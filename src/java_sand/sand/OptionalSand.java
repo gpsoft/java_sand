@@ -1,8 +1,10 @@
-package java_sand;
+package java_sand.sand;
 
 import java.util.Arrays;
 import java.util.OptionalInt;
 import java.util.function.Consumer;
+
+import java_sand.Utils;
 
 public class OptionalSand implements Sand {
 	private int[] vals = { 1, 20, 3, 480, 52 };

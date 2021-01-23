@@ -1,8 +1,10 @@
-package java_sand;
+package java_sand.sand;
 
 import java.net.URI;
 
 import org.springframework.web.util.UriComponentsBuilder;
+
+import java_sand.Utils;
 
 public class UriSand implements Sand {
 
