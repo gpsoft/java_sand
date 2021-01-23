@@ -15,7 +15,8 @@ Javaプログラミングの実験プロジェクト。
 
 ## 実験内容
 
-- `OptionalSand` ...`Optional`の使い方
+- `OptionalSand` ...`java.util.Optional`の使い方
 - `UriSand` ...URL文字列を組み立てる方法
 - `StaticSand` ...[`static`なフィールドやメソッドの使用例](doc/static.md)
+- `ListSand` ...`java.util.List`の使い方
 
