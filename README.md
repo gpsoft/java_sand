@@ -20,4 +20,19 @@ Javaプログラミングの実験プロジェクト。
 - `StaticSand` ...[`static`なフィールドやメソッドの使用例](doc/static.md)
 - `ListSand` ...`java.util.List`の使い方
 - `JacksonSand` ...Web APIのJSONレスポンスをjacksonライブラリでパースする
+- `JunitSandTest` ...JUnitの使い方
 
+## JUnit
+
+`JunitSand`クラスのメソッドを、`JunitSandTest`でテストする。
+
+- 依存ライブラリを追加
+  - `junit-jupiter` ...テストプログラムを書くために必要
+  - `junit-platform-launcher` ...テストプログラムを実行するために必要
+
+- テストプログラムは、`test`ディレクトリの下に置いた
+  - イレギュラーな場所なので、`pom.xml`経由でJUnitに教えてやる必要がある(`testSourceDirectory`)
+
+- テストプログラムを書く(`JunitSandTest.java`)
+
+- `Run As`→`JUnit Test`でテストを実行
