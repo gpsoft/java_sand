@@ -1,6 +1,9 @@
 package java_sand.sand;
 
+import java_sand.misc.GuessingGame;
+
 public class JunitSand implements Sand {
+	private GuessingGame game = new GuessingGame();
 
 	@Override
 	public void run() {
@@ -26,5 +29,12 @@ public class JunitSand implements Sand {
 	 */
 	public void scream(String m) {
 		System.out.print(m.toUpperCase() + "!");
+	}
+
+	/**
+	 * 数あてゲーム。正解かどうかを返す。
+	 */
+	public boolean guess(int n) {
+		return game.makeGame() == n;
 	}
 }

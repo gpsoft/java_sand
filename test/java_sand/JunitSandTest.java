@@ -56,4 +56,12 @@ public class JunitSandTest {
 		// assersion
 		Assertions.assertEquals("HELLO!", result);
 	}
+
+	//@Test
+	public void guessTest() {
+		JunitSand sand = new JunitSand();
+		Assertions.assertTrue(sand.guess(10));
+		// ↑正解が予想できないので、テストが書きにくい(書けない)
+		// →モックの出番
+	}
 }

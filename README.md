@@ -21,6 +21,7 @@ Javaプログラミングの実験プロジェクト。
 - `ListSand` ...`java.util.List`の使い方
 - `JacksonSand` ...Web APIのJSONレスポンスをjacksonライブラリでパースする
 - `JunitSandTest` ...JUnitの使い方
+- `JunitSandMockTest` ...Mockitoライブラリの使い方
 
 ## JUnit
 
@@ -36,3 +37,13 @@ Javaプログラミングの実験プロジェクト。
 - テストプログラムを書く(`JunitSandTest.java`)
 
 - `Run As`→`JUnit Test`でテストを実行
+
+## Mockito
+
+`JunitSand`クラスの`guess()`メソッドは、素のJUnitではテストが書きにくい。モックの出番。
+
+- 依存ライブラリを追加
+  - `mockito-core`
+  - `mockito-junit-jupiter`
+
+- テストプログラムを書く(`JunitSandMockTest.java`)
