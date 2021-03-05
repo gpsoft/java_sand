@@ -22,6 +22,7 @@ Javaプログラミングの実験プロジェクト。
 - `JacksonSand` ...Web APIのJSONレスポンスをjacksonライブラリでパースする
 - `JunitSandTest` ...JUnitの使い方
 - `JunitSandMockTest` ...Mockitoライブラリの使い方
+- `FutureSand` ...`java.util.concurrent.CompletableFuture`を使った非同期処理
 
 ## JUnit
 

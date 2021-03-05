@@ -1,5 +1,6 @@
 package java_sand;
 
+import java_sand.sand.FutureSand;
 import java_sand.sand.JacksonSand;
 import java_sand.sand.JunitSand;
 import java_sand.sand.ListSand;
@@ -17,6 +18,7 @@ public class Main {
 				new ListSand(),
 				new JacksonSand(),
 				new JunitSand(),
+				new FutureSand(),
 		};
 		int ix = sands.length - 1;
 		if (args.length > 0) ix = Utils.parseInt(args[0], ix);
